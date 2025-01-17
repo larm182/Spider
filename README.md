@@ -32,16 +32,23 @@ python auditoria_web.py
 El usuario puede seleccionar diferentes opciones del menú interactivo, por ejemplo:
 
 Seleccione una opción:
-1. Escanear directorios y archivos
-2. Buscar vulnerabilidades XSS
-3. Buscar inyecciones SQL
-4. Buscar inyecciones de comandos
-5. Buscar Local File Inclusion
-6. Escaneo de puertos y tecnologías
-7. Generar reporte en PDF
+
+1. Buscar directorios
+2. Buscar scripts
+3. Verificar puertos
+4. Identificar tecnología de la aplicación
+5. Revisar encabezados HTTP
+6. Realizar pruebas de fuerza bruta
+7. Buscar vulnerabilidades XSS
+8. Buscar vulnerabilidades SQL Injection
+9. Buscar vulnerabilidades de inyección de comandos
+10. Buscar vulnerabilidades de local file inclusión
+11. Generar reporte en PDF
+12. Salir
 Tras la ejecución, se generará un informe detallado con los resultados encontrados.
 
 📄 Ejemplo de Reporte
+
 El informe en PDF incluirá:
 ✔️ Listado de vulnerabilidades encontradas.
 ✔️ URLs y payloads utilizados en las pruebas.
