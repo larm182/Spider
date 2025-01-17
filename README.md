@@ -61,3 +61,6 @@ Python 3.8+
 Librerías: requests, beautifulsoup4, fpdf, matplotlib, termcolor, python-nmap, etc.
 ⚠️ Aviso Legal
 Esta herramienta ha sido desarrollada con fines educativos y de seguridad ofensiva ética. El uso indebido en sistemas sin autorización puede ser ilegal. El autor no se hace responsable por el mal uso de esta herramienta.
+
+![image](https://github.com/user-attachments/assets/4a8359c2-559d-4c45-9c43-6fe0a56bb4ef)
+
