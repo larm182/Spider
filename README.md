@@ -1,4 +1,5 @@
 🔍 Spider - Herramienta de Análisis de Seguridad
+
 📌 Descripción
 Auditoría Web es una herramienta de seguridad en Python diseñada para realizar análisis automatizados en sitios web. Permite detectar vulnerabilidades comunes, recopilar información del servidor y generar informes detallados en PDF con los hallazgos obtenidos.
 
@@ -16,28 +17,20 @@ LFI: Verifica vulnerabilidad web que permite la lectura de archivos locales.
 ✅ Revisión de Encabezados HTTP: Identifica configuraciones inseguras en los headers del sitio web.
 ✅ Fuerza Bruta y Validación de Credenciales: Pruebas básicas de acceso con diccionarios personalizados.
 ✅ Generación de Reportes en PDF: Se incluyen tablas detalladas, gráficas de estadísticas y una descripción clara de los hallazgos.
+
+
 🚀 Instalación
 1️⃣ Clona el repositorio:
-
-bash
-Copiar código
 git clone https://github.com//larm182/Spider.git
 cd Spider
 2️⃣ Instala las dependencias:
-
-bash
-Copiar código
 pip install -r requirements.txt
 3️⃣ Ejecuta la herramienta:
-
-bash
-Copiar código
 python auditoria_web.py
+
 📊 Ejemplo de Uso
 El usuario puede seleccionar diferentes opciones del menú interactivo, por ejemplo:
 
-bash
-Copiar código
 Seleccione una opción:
 1. Escanear directorios y archivos
 2. Buscar vulnerabilidades XSS
