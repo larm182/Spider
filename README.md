@@ -1,7 +1,7 @@
 🔍 Spider - Herramienta de Análisis de Seguridad
 
 📌 Descripción
-Auditoría Web es una herramienta de seguridad en Python diseñada para realizar análisis automatizados en sitios web. Permite detectar vulnerabilidades comunes, recopilar información del servidor y generar informes detallados en PDF con los hallazgos obtenidos.
+Spider es una herramienta de seguridad en Python diseñada para realizar análisis automatizados en sitios web. Permite detectar vulnerabilidades comunes, recopilar información del servidor y generar informes detallados en PDF con los hallazgos obtenidos.
 
 Esta herramienta es ideal para pentesters, profesionales de ciberseguridad y administradores de sistemas que deseen evaluar la seguridad de sus aplicaciones web de manera eficiente.
 
