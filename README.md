@@ -63,4 +63,8 @@ Librerías: requests, beautifulsoup4, fpdf, matplotlib, termcolor, python-nmap, 
 Esta herramienta ha sido desarrollada con fines educativos y de seguridad ofensiva ética. El uso indebido en sistemas sin autorización puede ser ilegal. El autor no se hace responsable por el mal uso de esta herramienta.
 
 ![image](https://github.com/user-attachments/assets/4a8359c2-559d-4c45-9c43-6fe0a56bb4ef)
+![image](https://github.com/user-attachments/assets/759ac103-f97f-4469-9a5b-62e66fcd31ad)
+![image](https://github.com/user-attachments/assets/bf220c64-c658-4c89-a59a-fd6a82ff12e2)
+
+
 
