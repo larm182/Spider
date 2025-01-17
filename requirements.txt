@@ -1,0 +1,10 @@
+requests
+beautifulsoup4
+socket
+python-nmap
+os-sys
+subprocess-run
+fpdf
+tempfile
+matplotlib
+termcolor
