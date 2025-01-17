@@ -1,4 +1,4 @@
-🔍 Auditoría Web - Herramienta de Análisis de Seguridad
+🔍 Spider - Herramienta de Análisis de Seguridad
 📌 Descripción
 Auditoría Web es una herramienta de seguridad en Python diseñada para realizar análisis automatizados en sitios web. Permite detectar vulnerabilidades comunes, recopilar información del servidor y generar informes detallados en PDF con los hallazgos obtenidos.
 
