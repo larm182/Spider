@@ -21,7 +21,7 @@ LFI: Verifica vulnerabilidad web que permite la lectura de archivos locales.
 
 🚀 Instalación
 1️⃣ Clona el repositorio:
-git clone https://github.com//larm182/Spider.git
+git clone https://github.com//larm182/Spider
 cd Spider
 2️⃣ Instala las dependencias:
 pip install -r requirements.txt
