@@ -82,8 +82,6 @@ def check_ports(target_host):
                         "Estado": estado,
                         "Servicio": servicio
                     })
-    #datos_procesados.append((puerto_estado, estado, servicio))
-
     # Impresión en consola
     print(f"\n{'-' * 50}")
     print(f"Host escaneado: {target_host}")
@@ -96,9 +94,6 @@ def check_ports(target_host):
         print(f"{resultado['Puerto']:<15}{resultado['Estado']:<15}{resultado['Servicio']:<20}")
     print(f"{'-' * 50}")
     return datos_procesados
-
-
-
 # Función para identificar la tecnología de la aplicación
 def identify_technology(url):
     print("\n--- Identificando tecnología de la aplicación ---")
@@ -204,7 +199,7 @@ def scan_command_injection(url, cmd_wordlist):
 
 
 # Función para Local File Inclusión
-def scan_xss(url, lfi_wordlist):
+def scan_lfi(url, lfi_wordlist):
     print("\n--- Probando Local File Inclusión ---")
     vulnerable = []
     with open(lfi_wordlist, 'r') as file:
@@ -218,7 +213,6 @@ def scan_xss(url, lfi_wordlist):
             except Exception as e:
                 print(f"Error al probar Local File Inclusión: {e}")
     return vulnerable
-
 
 # Función para generar la gráfica de vulnerabilidades y agregarla al PDF
 def generate_vulnerability_graph(results, pdf):
@@ -529,7 +523,7 @@ if __name__ == "__main__":
         elif choice == "9":
             results["Vulnerabilidades de inyección de comandos"] = scan_command_injection(target_url, cmd_wordlist)
         elif choice == "10":
-            results["Vulnerabilidades de local file inclusion"] = scan_command_injection(target_url, lfi_wordlist)
+            results["Vulnerabilidades de local file inclusion"] = scan_lfi(target_url, lfi_wordlist)
         elif choice == "11":
             generate_report(results)
         elif choice == "12":
